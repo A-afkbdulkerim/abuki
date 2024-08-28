@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto',sans-serif;
+  
+  
+}
+
+
+    
+      .learen{
+        border-radius: 20px;
+        height: 40px;
+        width: 150px;
+        background-color: blue;
+        
+      }
+      .learen:hover{
+        color: white;
+        background-color: blue;
+        
+        
+      }
+      .buy:hover{
+        
+        color: white;
+        background-color: blue;
+      }
+      .buy{
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+        color: blue;
+      }
+      
+
+    
+    
+    li {
+        
+        list-style-type: none;
+    
+       }
+    
+       a {
+        text-decoration: none;
+        color: white;
+        
+    
+       }
+       nav ul li a{
+        display: inline-block;
+        justify-content: space-between;
+        justify-items: center;
+        gap: 20px;
+       }
+       
+    
+    
+    ul{
+    display: flex;
+    justify-content: space-between;
+     }
+    nav{
+        background-color: rgb(64, 61, 61);
+        display: flex;
+        justify-content: center;
+        color: white;
+        position: fixed;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    
+        
+        
+      }
+       nav ul li{
+        display: inline-block;
+        padding: 0px 15px;
+        font-size: 15px;
+       }
+     
+    .logo img{
+      height: 20px;
+      width: 20px;
+    }
+      
+    .cart img{
+      height: 20px;
+      width: 20px;
+    }
+    .search img{
+      height: 20px;
+      width: 20px;
+    }
+
+  
+    
+    .raly{
+      
+      background-image: url(hero_macbook_air_m3__cp4t7pn8zqaa_small_2x.jpg); 
+          height: 700px;
+          width: 100%;
+          text-align: center;
+          padding-top: 100px;
+          background-size: cover;
+          
+          font-size: 30px;
+          
+            }
+    
+    .iphon{
+     background-image:url(hero_iphone_family_a__c7v3mvx3jv42_small_2x\ \(2\).jpg) ; 
+     font-weight: bold;
+     height: 800px;
+     width: 100%;
+    font-size: 'Segoe UI', Tahoma, sans-serif;
+     color: white;
+     margin-top: 12px;
+     font-size: 50px;
+     padding-top: 80px;
+     background-size: cover;
+     text-align: center;}
+
+
+  .container1{
+display: flex;
+width: 100%;
+padding-top: 10px;
+margin: 20px;
+gap :10px;
+
+  }
+    
+    .ipadpro{
+      background-image: url(promo_ipadpro__ch217v9v7no2_small_2x.jpg);
+      
+      height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+    }
+
+    .inte{background-image: url(promo_fitness_alt__ck26n46yeb2a_small.jpg);
+      height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+    }
+  .apll{
+    background-image: url(hero_apple_vision_pro__e8407ehady6i_small.jpg);
+    height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+      background-size: cover;
+      padding-top: 200px;
+      
+  }
+  .wach{
+    background-image: url(promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+    justify-content: center;
+    height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+  }
+  .card{
+    background-image: url(promo_apple_card__5cm7draujpey_small_2x\ \(1\).jpg);
+    height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+  }
+  .trad{
+    background-image: url(promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+    height: 400px;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 20px;
+      text-align: center;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Increased height to accommodate image and text */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%; /* Adjust as needed */
+    object-fit: cover;
+}
+
+ .slide p {
+    margin-top: 10px; 
+    font-size: 18px;
+    color: #333;
+} 
+
+.slide:nth-child(1) {
+    animation: slideshow 50s infinite;
+}
+
+.slide:nth-child(2) {
+    animation: slideshow 50s  5s infinite;
+}
+
+.slide:nth-child(3) {
+    animation: slideshow 50s 10s infinite;
+}
+de:nth-child(4) {
+  animation: slideshow 50s 15s infinite;
+}
+
+.slide:nth-child(5) {
+  animation: slideshow 50s 20s infinite;
+}
+
+.slide:nth-child(6) {
+  animation: slideshow 50s 25s infinite;
+}
+de:nth-child(7) {
+  animation: slideshow 50s  30s infinite;
+}
+
+.slide:nth-child(8) {
+  animation: slideshow 50s 35s infinite;
+}
+
+.slide:nth-child(9) {
+  animation: slideshow 50s 40s infinite;
+}
+.slide:nth-child(10) {
+  animation: slideshow 50s 45s infinite;
+}
+
+@keyframes slideshow {
+    0%, 26.66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    33.33%, 93.33% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+ 
+  
+  
+  
+
+
+
